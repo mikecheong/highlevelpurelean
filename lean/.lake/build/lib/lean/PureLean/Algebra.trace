@@ -1,0 +1,31 @@
+{"synthetic": false,
+ "schemaVersion": "2025-09-10",
+ "outputs":
+ {"o": ["b09696a0132017b8.olean"],
+  "m": false,
+  "i": "29651a91da570fc3.ilean",
+  "c": "32107c19387b7115.c"},
+ "log":
+ [{"message":
+   ".> LEAN_PATH=/Users/chiwengcheong/highlevelpurelean/lean/.lake/build/lib/lean /Users/chiwengcheong/.elan/toolchains/leanprover--lean4---v4.36.0/bin/lean /Users/chiwengcheong/highlevelpurelean/lean/PureLean/Algebra.lean -o /Users/chiwengcheong/highlevelpurelean/lean/.lake/build/lib/lean/PureLean/Algebra.olean -i /Users/chiwengcheong/highlevelpurelean/lean/.lake/build/lib/lean/PureLean/Algebra.ilean -c /Users/chiwengcheong/highlevelpurelean/lean/.lake/build/ir/PureLean/Algebra.c --setup /Users/chiwengcheong/highlevelpurelean/lean/.lake/build/ir/PureLean/Algebra.setup.json --json",
+   "level": "trace"}],
+ "inputs":
+ [["deps",
+   [["purelean/PureLean:extraDep",
+     [["@purelean:extraDep", "00000000000006bb"]]],
+    ["imports", "00000000000006bb"]]],
+  ["libs",
+   [["import dynlibs", "00000000000006bb"],
+    ["package external libraries", "00000000000006bb"],
+    ["module dynlibs", "00000000000006bb"],
+    ["module plugins", "00000000000006bb"]]],
+  ["Lean 4.36.0, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9",
+   "bd5dd4b1191d6a49"],
+  ["/Users/chiwengcheong/highlevelpurelean/lean/PureLean/Algebra.lean",
+   "a20a932cf9cf592e"],
+  ["options", "00000000000006bb"],
+  ["isModule: false", "feefd2a0d3a1847e"],
+  ["Module.name: PureLean.Algebra", "587a87eafb13ba41"],
+  ["Package.id?: (some purelean)", "fa62f3cda9dc0bdc"],
+  ["Module.leanArgs: #[]", "00000000000006bb"]],
+ "depHash": "dce89852276901e9"}

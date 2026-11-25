@@ -1,0 +1,8 @@
+import PureLean.HardBenchmarks
+import PureLean.HoldoutBenchmarks
+import PureLean.Algebra
+import PureLean.OrderGalois
+import PureLean.RelationsSets
+import PureLean.LogicFunctions
+import PureLean.InductiveCompilers
+import PureLean.NumberTheory

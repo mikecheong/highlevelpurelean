@@ -1,0 +1,116 @@
+{
+  "stage": "stage1_pure_lean",
+  "base_model": "Qwen/Qwen2.5-Coder-3B-Instruct",
+  "merged_checkpoint": "checkpoints/stage1_pure_lean_merged",
+  "adapter_checkpoint": "checkpoints/stage1_pure_lean_lora",
+  "seq_len": 512,
+  "epochs": 1,
+  "train_blocks": 882,
+  "val_blocks": 32,
+  "opt_steps": 98,
+  "initial_val": {
+    "val_loss": 0.9733,
+    "val_ppl": 2.6467,
+    "val_tokens": 16352
+  },
+  "final_val": {
+    "val_loss": 0.0843,
+    "val_ppl": 1.0879,
+    "val_tokens": 16352
+  },
+  "elapsed_sec": 37393.18,
+  "history": [
+    {
+      "step": 0,
+      "val_loss": 0.9733,
+      "val_ppl": 2.6467,
+      "val_tokens": 16352
+    },
+    {
+      "epoch": 1,
+      "step": 10,
+      "total_steps": 98,
+      "train_loss": 0.8322,
+      "lr": 0.0001995,
+      "elapsed_sec": 4011.3
+    },
+    {
+      "epoch": 1,
+      "step": 20,
+      "total_steps": 98,
+      "train_loss": 0.3865,
+      "lr": 0.0001911,
+      "elapsed_sec": 7749.0
+    },
+    {
+      "epoch": 1,
+      "step": 30,
+      "total_steps": 98,
+      "train_loss": 0.2404,
+      "lr": 0.0001731,
+      "elapsed_sec": 11477.2
+    },
+    {
+      "epoch": 1,
+      "step": 40,
+      "total_steps": 98,
+      "train_loss": 0.1743,
+      "lr": 0.0001476,
+      "elapsed_sec": 15221.7
+    },
+    {
+      "epoch": 1,
+      "step": 50,
+      "total_steps": 98,
+      "train_loss": 0.1447,
+      "lr": 0.0001178,
+      "elapsed_sec": 18991.9
+    },
+    {
+      "epoch": 1,
+      "step": 60,
+      "total_steps": 98,
+      "train_loss": 0.1299,
+      "lr": 8.7e-05,
+      "elapsed_sec": 22801.4
+    },
+    {
+      "epoch": 1,
+      "step": 70,
+      "total_steps": 98,
+      "train_loss": 0.1118,
+      "lr": 5.89e-05,
+      "elapsed_sec": 26586.9,
+      "val_loss": 0.0982,
+      "val_ppl": 1.1031,
+      "val_tokens": 16352
+    },
+    {
+      "epoch": 1,
+      "step": 80,
+      "total_steps": 98,
+      "train_loss": 0.1099,
+      "lr": 3.68e-05,
+      "elapsed_sec": 30567.7
+    },
+    {
+      "epoch": 1,
+      "step": 90,
+      "total_steps": 98,
+      "train_loss": 0.1051,
+      "lr": 2.34e-05,
+      "elapsed_sec": 34351.3
+    },
+    {
+      "epoch": 1,
+      "step": 98,
+      "total_steps": 98,
+      "train_loss": 0.0988,
+      "lr": 2e-05,
+      "elapsed_sec": 37318.6,
+      "val_loss": 0.0843,
+      "val_ppl": 1.0879,
+      "val_tokens": 16352
+    }
+  ]
+}

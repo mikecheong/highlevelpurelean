@@ -1,0 +1,1198 @@
+{
+  "0_base_qwen25_coder_3b": {
+    "checkpoint": "Qwen/Qwen2.5-Coder-3B-Instruct",
+    "hard_15_grpo": {
+      "suite": "hard_15_grpo",
+      "num_questions": 15,
+      "group_size": 8,
+      "mean_accuracy_pass_at_1": 0.0,
+      "pass_at_k_rate": 0.0,
+      "mastery_75_rate": 0.0,
+      "mastery_75_count": 0,
+      "sketchpad_adherence": 0.2417,
+      "elapsed_sec": 709.27,
+      "per_question": [
+        {
+          "id": "hq_01_exp2_group_comm",
+          "domain": "algebra",
+          "verified": 0,
+          "group_size": 8,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.125
+        },
+        {
+          "id": "hq_02_galois_u_l_u",
+          "domain": "order_lattice",
+          "verified": 0,
+          "group_size": 8,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.125
+        },
+        {
+          "id": "hq_03_classical_forall_or",
+          "domain": "logic_functions",
+          "verified": 0,
+          "group_size": 8,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.125
+        },
+        {
+          "id": "hq_04_btree_flatten_mirror",
+          "domain": "inductive_ds",
+          "verified": 0,
+          "group_size": 8,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.125
+        },
+        {
+          "id": "hq_05_retraction_inj_right_inv",
+          "domain": "logic_functions",
+          "verified": 0,
+          "group_size": 8,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.125
+        },
+        {
+          "id": "hq_06_mapAcc_correct",
+          "domain": "inductive_ds",
+          "verified": 0,
+          "group_size": 8,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.375
+        },
+        {
+          "id": "hq_07_heyting_curry",
+          "domain": "order_lattice",
+          "verified": 0,
+          "group_size": 8,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.0
+        },
+        {
+          "id": "hq_08_diamond_strip_lemma",
+          "domain": "relations_sets",
+          "verified": 0,
+          "group_size": 8,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.375
+        },
+        {
+          "id": "hq_09_div3_cube_plus_2n",
+          "domain": "nat_number_theory",
+          "verified": 0,
+          "group_size": 8,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.25
+        },
+        {
+          "id": "hq_10_ring_neg_mul_neg",
+          "domain": "algebra",
+          "verified": 0,
+          "group_size": 8,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.125
+        },
+        {
+          "id": "hq_11_foldl_via_foldr_cps",
+          "domain": "inductive_ds",
+          "verified": 0,
+          "group_size": 8,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.5
+        },
+        {
+          "id": "hq_12_group_commutator_inv",
+          "domain": "algebra",
+          "verified": 0,
+          "group_size": 8,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.125
+        },
+        {
+          "id": "hq_13_fib_addition_formula",
+          "domain": "nat_number_theory",
+          "verified": 0,
+          "group_size": 8,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.625
+        },
+        {
+          "id": "hq_14_arith_vm_compiler",
+          "domain": "inductive_ds",
+          "verified": 0,
+          "group_size": 8,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.375
+        },
+        {
+          "id": "hq_15_nicomachus_sum_cubes",
+          "domain": "nat_number_theory",
+          "verified": 0,
+          "group_size": 8,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.25
+        }
+      ]
+    },
+    "unseen_12_holdout": {
+      "suite": "unseen_12_holdout",
+      "num_questions": 12,
+      "group_size": 4,
+      "mean_accuracy_pass_at_1": 0.0,
+      "pass_at_k_rate": 0.0,
+      "mastery_75_rate": 0.0,
+      "mastery_75_count": 0,
+      "sketchpad_adherence": 0.375,
+      "elapsed_sec": 356.73,
+      "per_question": [
+        {
+          "id": "eval_01_unique_identity",
+          "domain": "algebra",
+          "verified": 0,
+          "group_size": 4,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.5
+        },
+        {
+          "id": "eval_02_group_unique_inv",
+          "domain": "algebra",
+          "verified": 0,
+          "group_size": 4,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.25
+        },
+        {
+          "id": "eval_03_lattice_sup_assoc",
+          "domain": "order_lattice",
+          "verified": 0,
+          "group_size": 4,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.75
+        },
+        {
+          "id": "eval_04_closure_inf_closed",
+          "domain": "order_lattice",
+          "verified": 0,
+          "group_size": 4,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.25
+        },
+        {
+          "id": "eval_05_preimg_compl",
+          "domain": "relations_sets",
+          "verified": 0,
+          "group_size": 4,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.5
+        },
+        {
+          "id": "eval_06_star_reverse_ind",
+          "domain": "relations_sets",
+          "verified": 0,
+          "group_size": 4,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.0
+        },
+        {
+          "id": "eval_07_classical_imp_iff_or",
+          "domain": "logic_functions",
+          "verified": 0,
+          "group_size": 4,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.25
+        },
+        {
+          "id": "eval_08_iter_periodic",
+          "domain": "logic_functions",
+          "verified": 0,
+          "group_size": 4,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.25
+        },
+        {
+          "id": "eval_09_lenAcc_correct",
+          "domain": "inductive_ds",
+          "verified": 0,
+          "group_size": 4,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.75
+        },
+        {
+          "id": "eval_10_btree_leaves_pos",
+          "domain": "inductive_ds",
+          "verified": 0,
+          "group_size": 4,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.5
+        },
+        {
+          "id": "eval_11_dvd_diff_nat",
+          "domain": "nat_number_theory",
+          "verified": 0,
+          "group_size": 4,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.0
+        },
+        {
+          "id": "eval_12_sum_squares_six",
+          "domain": "nat_number_theory",
+          "verified": 0,
+          "group_size": 4,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.5
+        }
+      ]
+    }
+  },
+  "1_stage1_pure_lean_3b": {
+    "checkpoint": "checkpoints/stage1_pure_lean_merged",
+    "hard_15_grpo": {
+      "suite": "hard_15_grpo",
+      "num_questions": 15,
+      "group_size": 8,
+      "mean_accuracy_pass_at_1": 0.0,
+      "pass_at_k_rate": 0.0,
+      "mastery_75_rate": 0.0,
+      "mastery_75_count": 0,
+      "sketchpad_adherence": 0.0,
+      "elapsed_sec": 336.99,
+      "per_question": [
+        {
+          "id": "hq_01_exp2_group_comm",
+          "domain": "algebra",
+          "verified": 0,
+          "group_size": 8,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.0
+        },
+        {
+          "id": "hq_02_galois_u_l_u",
+          "domain": "order_lattice",
+          "verified": 0,
+          "group_size": 8,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.0
+        },
+        {
+          "id": "hq_03_classical_forall_or",
+          "domain": "logic_functions",
+          "verified": 0,
+          "group_size": 8,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.0
+        },
+        {
+          "id": "hq_04_btree_flatten_mirror",
+          "domain": "inductive_ds",
+          "verified": 0,
+          "group_size": 8,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.0
+        },
+        {
+          "id": "hq_05_retraction_inj_right_inv",
+          "domain": "logic_functions",
+          "verified": 0,
+          "group_size": 8,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.0
+        },
+        {
+          "id": "hq_06_mapAcc_correct",
+          "domain": "inductive_ds",
+          "verified": 0,
+          "group_size": 8,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.0
+        },
+        {
+          "id": "hq_07_heyting_curry",
+          "domain": "order_lattice",
+          "verified": 0,
+          "group_size": 8,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.0
+        },
+        {
+          "id": "hq_08_diamond_strip_lemma",
+          "domain": "relations_sets",
+          "verified": 0,
+          "group_size": 8,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.0
+        },
+        {
+          "id": "hq_09_div3_cube_plus_2n",
+          "domain": "nat_number_theory",
+          "verified": 0,
+          "group_size": 8,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.0
+        },
+        {
+          "id": "hq_10_ring_neg_mul_neg",
+          "domain": "algebra",
+          "verified": 0,
+          "group_size": 8,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.0
+        },
+        {
+          "id": "hq_11_foldl_via_foldr_cps",
+          "domain": "inductive_ds",
+          "verified": 0,
+          "group_size": 8,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.0
+        },
+        {
+          "id": "hq_12_group_commutator_inv",
+          "domain": "algebra",
+          "verified": 0,
+          "group_size": 8,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.0
+        },
+        {
+          "id": "hq_13_fib_addition_formula",
+          "domain": "nat_number_theory",
+          "verified": 0,
+          "group_size": 8,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.0
+        },
+        {
+          "id": "hq_14_arith_vm_compiler",
+          "domain": "inductive_ds",
+          "verified": 0,
+          "group_size": 8,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.0
+        },
+        {
+          "id": "hq_15_nicomachus_sum_cubes",
+          "domain": "nat_number_theory",
+          "verified": 0,
+          "group_size": 8,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.0
+        }
+      ]
+    },
+    "unseen_12_holdout": {
+      "suite": "unseen_12_holdout",
+      "num_questions": 12,
+      "group_size": 4,
+      "mean_accuracy_pass_at_1": 0.0,
+      "pass_at_k_rate": 0.0,
+      "mastery_75_rate": 0.0,
+      "mastery_75_count": 0,
+      "sketchpad_adherence": 0.0,
+      "elapsed_sec": 198.32,
+      "per_question": [
+        {
+          "id": "eval_01_unique_identity",
+          "domain": "algebra",
+          "verified": 0,
+          "group_size": 4,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.0
+        },
+        {
+          "id": "eval_02_group_unique_inv",
+          "domain": "algebra",
+          "verified": 0,
+          "group_size": 4,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.0
+        },
+        {
+          "id": "eval_03_lattice_sup_assoc",
+          "domain": "order_lattice",
+          "verified": 0,
+          "group_size": 4,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.0
+        },
+        {
+          "id": "eval_04_closure_inf_closed",
+          "domain": "order_lattice",
+          "verified": 0,
+          "group_size": 4,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.0
+        },
+        {
+          "id": "eval_05_preimg_compl",
+          "domain": "relations_sets",
+          "verified": 0,
+          "group_size": 4,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.0
+        },
+        {
+          "id": "eval_06_star_reverse_ind",
+          "domain": "relations_sets",
+          "verified": 0,
+          "group_size": 4,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.0
+        },
+        {
+          "id": "eval_07_classical_imp_iff_or",
+          "domain": "logic_functions",
+          "verified": 0,
+          "group_size": 4,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.0
+        },
+        {
+          "id": "eval_08_iter_periodic",
+          "domain": "logic_functions",
+          "verified": 0,
+          "group_size": 4,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.0
+        },
+        {
+          "id": "eval_09_lenAcc_correct",
+          "domain": "inductive_ds",
+          "verified": 0,
+          "group_size": 4,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.0
+        },
+        {
+          "id": "eval_10_btree_leaves_pos",
+          "domain": "inductive_ds",
+          "verified": 0,
+          "group_size": 4,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.0
+        },
+        {
+          "id": "eval_11_dvd_diff_nat",
+          "domain": "nat_number_theory",
+          "verified": 0,
+          "group_size": 4,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.0
+        },
+        {
+          "id": "eval_12_sum_squares_six",
+          "domain": "nat_number_theory",
+          "verified": 0,
+          "group_size": 4,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.0
+        }
+      ]
+    }
+  },
+  "2_stage2_sketchpad_sft_3b": {
+    "checkpoint": "checkpoints/stage2_sketchpad_sft_merged",
+    "hard_15_grpo": {
+      "suite": "hard_15_grpo",
+      "num_questions": 15,
+      "group_size": 8,
+      "mean_accuracy_pass_at_1": 0.025,
+      "pass_at_k_rate": 0.1333,
+      "mastery_75_rate": 0.0,
+      "mastery_75_count": 0,
+      "sketchpad_adherence": 1.0,
+      "elapsed_sec": 412.04,
+      "per_question": [
+        {
+          "id": "hq_01_exp2_group_comm",
+          "domain": "algebra",
+          "verified": 0,
+          "group_size": 8,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 1.0
+        },
+        {
+          "id": "hq_02_galois_u_l_u",
+          "domain": "order_lattice",
+          "verified": 0,
+          "group_size": 8,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 1.0
+        },
+        {
+          "id": "hq_03_classical_forall_or",
+          "domain": "logic_functions",
+          "verified": 0,
+          "group_size": 8,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 1.0
+        },
+        {
+          "id": "hq_04_btree_flatten_mirror",
+          "domain": "inductive_ds",
+          "verified": 2,
+          "group_size": 8,
+          "accuracy": 0.25,
+          "pass_at_k": true,
+          "mastered_75": false,
+          "sketchpad_rate": 1.0
+        },
+        {
+          "id": "hq_05_retraction_inj_right_inv",
+          "domain": "logic_functions",
+          "verified": 0,
+          "group_size": 8,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 1.0
+        },
+        {
+          "id": "hq_06_mapAcc_correct",
+          "domain": "inductive_ds",
+          "verified": 0,
+          "group_size": 8,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 1.0
+        },
+        {
+          "id": "hq_07_heyting_curry",
+          "domain": "order_lattice",
+          "verified": 0,
+          "group_size": 8,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 1.0
+        },
+        {
+          "id": "hq_08_diamond_strip_lemma",
+          "domain": "relations_sets",
+          "verified": 0,
+          "group_size": 8,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 1.0
+        },
+        {
+          "id": "hq_09_div3_cube_plus_2n",
+          "domain": "nat_number_theory",
+          "verified": 0,
+          "group_size": 8,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 1.0
+        },
+        {
+          "id": "hq_10_ring_neg_mul_neg",
+          "domain": "algebra",
+          "verified": 0,
+          "group_size": 8,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 1.0
+        },
+        {
+          "id": "hq_11_foldl_via_foldr_cps",
+          "domain": "inductive_ds",
+          "verified": 0,
+          "group_size": 8,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 1.0
+        },
+        {
+          "id": "hq_12_group_commutator_inv",
+          "domain": "algebra",
+          "verified": 0,
+          "group_size": 8,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 1.0
+        },
+        {
+          "id": "hq_13_fib_addition_formula",
+          "domain": "nat_number_theory",
+          "verified": 0,
+          "group_size": 8,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 1.0
+        },
+        {
+          "id": "hq_14_arith_vm_compiler",
+          "domain": "inductive_ds",
+          "verified": 1,
+          "group_size": 8,
+          "accuracy": 0.125,
+          "pass_at_k": true,
+          "mastered_75": false,
+          "sketchpad_rate": 1.0
+        },
+        {
+          "id": "hq_15_nicomachus_sum_cubes",
+          "domain": "nat_number_theory",
+          "verified": 0,
+          "group_size": 8,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 1.0
+        }
+      ]
+    },
+    "unseen_12_holdout": {
+      "suite": "unseen_12_holdout",
+      "num_questions": 12,
+      "group_size": 4,
+      "mean_accuracy_pass_at_1": 0.125,
+      "pass_at_k_rate": 0.1667,
+      "mastery_75_rate": 0.0833,
+      "mastery_75_count": 1,
+      "sketchpad_adherence": 1.0,
+      "elapsed_sec": 166.87,
+      "per_question": [
+        {
+          "id": "eval_01_unique_identity",
+          "domain": "algebra",
+          "verified": 0,
+          "group_size": 4,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 1.0
+        },
+        {
+          "id": "eval_02_group_unique_inv",
+          "domain": "algebra",
+          "verified": 0,
+          "group_size": 4,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 1.0
+        },
+        {
+          "id": "eval_03_lattice_sup_assoc",
+          "domain": "order_lattice",
+          "verified": 0,
+          "group_size": 4,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 1.0
+        },
+        {
+          "id": "eval_04_closure_inf_closed",
+          "domain": "order_lattice",
+          "verified": 0,
+          "group_size": 4,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 1.0
+        },
+        {
+          "id": "eval_05_preimg_compl",
+          "domain": "relations_sets",
+          "verified": 2,
+          "group_size": 4,
+          "accuracy": 0.5,
+          "pass_at_k": true,
+          "mastered_75": false,
+          "sketchpad_rate": 1.0
+        },
+        {
+          "id": "eval_06_star_reverse_ind",
+          "domain": "relations_sets",
+          "verified": 0,
+          "group_size": 4,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 1.0
+        },
+        {
+          "id": "eval_07_classical_imp_iff_or",
+          "domain": "logic_functions",
+          "verified": 0,
+          "group_size": 4,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 1.0
+        },
+        {
+          "id": "eval_08_iter_periodic",
+          "domain": "logic_functions",
+          "verified": 0,
+          "group_size": 4,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 1.0
+        },
+        {
+          "id": "eval_09_lenAcc_correct",
+          "domain": "inductive_ds",
+          "verified": 0,
+          "group_size": 4,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 1.0
+        },
+        {
+          "id": "eval_10_btree_leaves_pos",
+          "domain": "inductive_ds",
+          "verified": 4,
+          "group_size": 4,
+          "accuracy": 1.0,
+          "pass_at_k": true,
+          "mastered_75": true,
+          "sketchpad_rate": 1.0
+        },
+        {
+          "id": "eval_11_dvd_diff_nat",
+          "domain": "nat_number_theory",
+          "verified": 0,
+          "group_size": 4,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 1.0
+        },
+        {
+          "id": "eval_12_sum_squares_six",
+          "domain": "nat_number_theory",
+          "verified": 0,
+          "group_size": 4,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 1.0
+        }
+      ]
+    }
+  },
+  "3_stage3_grpo_mastered_3b": {
+    "checkpoint": "checkpoints/stage3_grpo_merged",
+    "hard_15_grpo": {
+      "suite": "hard_15_grpo",
+      "num_questions": 15,
+      "group_size": 8,
+      "mean_accuracy_pass_at_1": 0.6917,
+      "pass_at_k_rate": 0.8667,
+      "mastery_75_rate": 0.6,
+      "mastery_75_count": 9,
+      "sketchpad_adherence": 0.9,
+      "elapsed_sec": 589.01,
+      "per_question": [
+        {
+          "id": "hq_01_exp2_group_comm",
+          "domain": "algebra",
+          "verified": 8,
+          "group_size": 8,
+          "accuracy": 1.0,
+          "pass_at_k": true,
+          "mastered_75": true,
+          "sketchpad_rate": 1.0
+        },
+        {
+          "id": "hq_02_galois_u_l_u",
+          "domain": "order_lattice",
+          "verified": 8,
+          "group_size": 8,
+          "accuracy": 1.0,
+          "pass_at_k": true,
+          "mastered_75": true,
+          "sketchpad_rate": 1.0
+        },
+        {
+          "id": "hq_03_classical_forall_or",
+          "domain": "logic_functions",
+          "verified": 8,
+          "group_size": 8,
+          "accuracy": 1.0,
+          "pass_at_k": true,
+          "mastered_75": true,
+          "sketchpad_rate": 1.0
+        },
+        {
+          "id": "hq_04_btree_flatten_mirror",
+          "domain": "inductive_ds",
+          "verified": 2,
+          "group_size": 8,
+          "accuracy": 0.25,
+          "pass_at_k": true,
+          "mastered_75": false,
+          "sketchpad_rate": 0.5
+        },
+        {
+          "id": "hq_05_retraction_inj_right_inv",
+          "domain": "logic_functions",
+          "verified": 6,
+          "group_size": 8,
+          "accuracy": 0.75,
+          "pass_at_k": true,
+          "mastered_75": true,
+          "sketchpad_rate": 1.0
+        },
+        {
+          "id": "hq_06_mapAcc_correct",
+          "domain": "inductive_ds",
+          "verified": 0,
+          "group_size": 8,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.875
+        },
+        {
+          "id": "hq_07_heyting_curry",
+          "domain": "order_lattice",
+          "verified": 3,
+          "group_size": 8,
+          "accuracy": 0.375,
+          "pass_at_k": true,
+          "mastered_75": false,
+          "sketchpad_rate": 1.0
+        },
+        {
+          "id": "hq_08_diamond_strip_lemma",
+          "domain": "relations_sets",
+          "verified": 8,
+          "group_size": 8,
+          "accuracy": 1.0,
+          "pass_at_k": true,
+          "mastered_75": true,
+          "sketchpad_rate": 1.0
+        },
+        {
+          "id": "hq_09_div3_cube_plus_2n",
+          "domain": "nat_number_theory",
+          "verified": 0,
+          "group_size": 8,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.625
+        },
+        {
+          "id": "hq_10_ring_neg_mul_neg",
+          "domain": "algebra",
+          "verified": 6,
+          "group_size": 8,
+          "accuracy": 0.75,
+          "pass_at_k": true,
+          "mastered_75": true,
+          "sketchpad_rate": 1.0
+        },
+        {
+          "id": "hq_11_foldl_via_foldr_cps",
+          "domain": "inductive_ds",
+          "verified": 8,
+          "group_size": 8,
+          "accuracy": 1.0,
+          "pass_at_k": true,
+          "mastered_75": true,
+          "sketchpad_rate": 1.0
+        },
+        {
+          "id": "hq_12_group_commutator_inv",
+          "domain": "algebra",
+          "verified": 8,
+          "group_size": 8,
+          "accuracy": 1.0,
+          "pass_at_k": true,
+          "mastered_75": true,
+          "sketchpad_rate": 1.0
+        },
+        {
+          "id": "hq_13_fib_addition_formula",
+          "domain": "nat_number_theory",
+          "verified": 8,
+          "group_size": 8,
+          "accuracy": 1.0,
+          "pass_at_k": true,
+          "mastered_75": true,
+          "sketchpad_rate": 1.0
+        },
+        {
+          "id": "hq_14_arith_vm_compiler",
+          "domain": "inductive_ds",
+          "verified": 5,
+          "group_size": 8,
+          "accuracy": 0.625,
+          "pass_at_k": true,
+          "mastered_75": false,
+          "sketchpad_rate": 0.75
+        },
+        {
+          "id": "hq_15_nicomachus_sum_cubes",
+          "domain": "nat_number_theory",
+          "verified": 5,
+          "group_size": 8,
+          "accuracy": 0.625,
+          "pass_at_k": true,
+          "mastered_75": false,
+          "sketchpad_rate": 0.75
+        }
+      ]
+    },
+    "unseen_12_holdout": {
+      "suite": "unseen_12_holdout",
+      "num_questions": 12,
+      "group_size": 4,
+      "mean_accuracy_pass_at_1": 0.0,
+      "pass_at_k_rate": 0.0,
+      "mastery_75_rate": 0.0,
+      "mastery_75_count": 0,
+      "sketchpad_adherence": 0.3333,
+      "elapsed_sec": 472.75,
+      "per_question": [
+        {
+          "id": "eval_01_unique_identity",
+          "domain": "algebra",
+          "verified": 0,
+          "group_size": 4,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.5
+        },
+        {
+          "id": "eval_02_group_unique_inv",
+          "domain": "algebra",
+          "verified": 0,
+          "group_size": 4,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.75
+        },
+        {
+          "id": "eval_03_lattice_sup_assoc",
+          "domain": "order_lattice",
+          "verified": 0,
+          "group_size": 4,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.25
+        },
+        {
+          "id": "eval_04_closure_inf_closed",
+          "domain": "order_lattice",
+          "verified": 0,
+          "group_size": 4,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.0
+        },
+        {
+          "id": "eval_05_preimg_compl",
+          "domain": "relations_sets",
+          "verified": 0,
+          "group_size": 4,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.0
+        },
+        {
+          "id": "eval_06_star_reverse_ind",
+          "domain": "relations_sets",
+          "verified": 0,
+          "group_size": 4,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.5
+        },
+        {
+          "id": "eval_07_classical_imp_iff_or",
+          "domain": "logic_functions",
+          "verified": 0,
+          "group_size": 4,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.5
+        },
+        {
+          "id": "eval_08_iter_periodic",
+          "domain": "logic_functions",
+          "verified": 0,
+          "group_size": 4,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.25
+        },
+        {
+          "id": "eval_09_lenAcc_correct",
+          "domain": "inductive_ds",
+          "verified": 0,
+          "group_size": 4,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.0
+        },
+        {
+          "id": "eval_10_btree_leaves_pos",
+          "domain": "inductive_ds",
+          "verified": 0,
+          "group_size": 4,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.5
+        },
+        {
+          "id": "eval_11_dvd_diff_nat",
+          "domain": "nat_number_theory",
+          "verified": 0,
+          "group_size": 4,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.25
+        },
+        {
+          "id": "eval_12_sum_squares_six",
+          "domain": "nat_number_theory",
+          "verified": 0,
+          "group_size": 4,
+          "accuracy": 0.0,
+          "pass_at_k": false,
+          "mastered_75": false,
+          "sketchpad_rate": 0.5
+        }
+      ]
+    }
+  }
+}

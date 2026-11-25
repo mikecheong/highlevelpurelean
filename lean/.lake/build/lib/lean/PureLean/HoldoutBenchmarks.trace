@@ -1,0 +1,67 @@
+{"synthetic": false,
+ "schemaVersion": "2025-09-10",
+ "outputs":
+ {"o": ["8e189ceb2ee96abc.olean"],
+  "m": false,
+  "i": "2ef41ae4c71467c1.ilean",
+  "c": "5143d106e03a7c13.c"},
+ "log":
+ [{"message":
+   ".> LEAN_PATH=/Users/chiwengcheong/highlevelpurelean/lean/.lake/build/lib/lean /Users/chiwengcheong/.elan/toolchains/leanprover--lean4---v4.36.0/bin/lean /Users/chiwengcheong/highlevelpurelean/lean/PureLean/HoldoutBenchmarks.lean -o /Users/chiwengcheong/highlevelpurelean/lean/.lake/build/lib/lean/PureLean/HoldoutBenchmarks.olean -i /Users/chiwengcheong/highlevelpurelean/lean/.lake/build/lib/lean/PureLean/HoldoutBenchmarks.ilean -c /Users/chiwengcheong/highlevelpurelean/lean/.lake/build/ir/PureLean/HoldoutBenchmarks.c --setup /Users/chiwengcheong/highlevelpurelean/lean/.lake/build/ir/PureLean/HoldoutBenchmarks.setup.json --json",
+   "level": "trace"},
+  {"message":
+   "PureLean/HoldoutBenchmarks.lean:23:0: 'eval_01_unique_identity.unique_left_id' does not depend on any axioms",
+   "level": "info"},
+  {"message":
+   "PureLean/HoldoutBenchmarks.lean:46:0: 'eval_02_group_unique_inv.unique_right_inv' does not depend on any axioms",
+   "level": "info"},
+  {"message":
+   "PureLean/HoldoutBenchmarks.lean:77:0: 'eval_03_lattice_sup_assoc.sup_assoc_pure' does not depend on any axioms",
+   "level": "info"},
+  {"message":
+   "PureLean/HoldoutBenchmarks.lean:109:0: 'eval_04_closure_inf_closed.closed_inf_closed' does not depend on any axioms",
+   "level": "info"},
+  {"message":
+   "PureLean/HoldoutBenchmarks.lean:124:0: 'eval_05_preimg_compl.preimg_compl_eq' does not depend on any axioms",
+   "level": "info"},
+  {"message":
+   "PureLean/HoldoutBenchmarks.lean:148:0: 'eval_06_star_reverse_ind.star_conv_imp' does not depend on any axioms",
+   "level": "info"},
+  {"message":
+   "PureLean/HoldoutBenchmarks.lean:166:0: 'eval_07_classical_imp_iff_or.imp_iff_not_or_classical' depends on axioms: [propext, Classical.choice, Quot.sound]",
+   "level": "info"},
+  {"message":
+   "PureLean/HoldoutBenchmarks.lean:189:0: 'eval_08_iter_periodic.iterFn_mul_period' depends on axioms: [propext]",
+   "level": "info"},
+  {"message":
+   "PureLean/HoldoutBenchmarks.lean:209:0: 'eval_09_lenAcc_correct.lenAcc_zero_eq_length' depends on axioms: [propext, Quot.sound]",
+   "level": "info"},
+  {"message":
+   "PureLean/HoldoutBenchmarks.lean:234:0: 'eval_10_btree_leaves_pos.btree_leaves_eq_nodes_succ' depends on axioms: [propext, Quot.sound]",
+   "level": "info"},
+  {"message":
+   "PureLean/HoldoutBenchmarks.lean:250:0: 'eval_11_dvd_diff_nat.int_dvd_sub_comb' depends on axioms: [propext]",
+   "level": "info"},
+  {"message":
+   "PureLean/HoldoutBenchmarks.lean:280:0: 'eval_12_sum_squares_six.sum_squares_six' depends on axioms: [propext, Quot.sound]",
+   "level": "info"}],
+ "inputs":
+ [["deps",
+   [["purelean/PureLean:extraDep",
+     [["@purelean:extraDep", "00000000000006bb"]]],
+    ["imports", "00000000000006bb"]]],
+  ["libs",
+   [["import dynlibs", "00000000000006bb"],
+    ["package external libraries", "00000000000006bb"],
+    ["module dynlibs", "00000000000006bb"],
+    ["module plugins", "00000000000006bb"]]],
+  ["Lean 4.36.0, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9",
+   "bd5dd4b1191d6a49"],
+  ["/Users/chiwengcheong/highlevelpurelean/lean/PureLean/HoldoutBenchmarks.lean",
+   "5d594d3a0c01289a"],
+  ["options", "00000000000006bb"],
+  ["isModule: false", "feefd2a0d3a1847e"],
+  ["Module.name: PureLean.HoldoutBenchmarks", "d7bdf993ba5b0c21"],
+  ["Package.id?: (some purelean)", "fa62f3cda9dc0bdc"],
+  ["Module.leanArgs: #[]", "00000000000006bb"]],
+ "depHash": "12cf71539be22ef5"}

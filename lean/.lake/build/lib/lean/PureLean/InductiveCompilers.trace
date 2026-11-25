@@ -1,0 +1,31 @@
+{"synthetic": false,
+ "schemaVersion": "2025-09-10",
+ "outputs":
+ {"o": ["3938b1e9b14be46e.olean"],
+  "m": false,
+  "i": "3779da218a859466.ilean",
+  "c": "89b9abd6a72b26e5.c"},
+ "log":
+ [{"message":
+   ".> LEAN_PATH=/Users/chiwengcheong/highlevelpurelean/lean/.lake/build/lib/lean /Users/chiwengcheong/.elan/toolchains/leanprover--lean4---v4.36.0/bin/lean /Users/chiwengcheong/highlevelpurelean/lean/PureLean/InductiveCompilers.lean -o /Users/chiwengcheong/highlevelpurelean/lean/.lake/build/lib/lean/PureLean/InductiveCompilers.olean -i /Users/chiwengcheong/highlevelpurelean/lean/.lake/build/lib/lean/PureLean/InductiveCompilers.ilean -c /Users/chiwengcheong/highlevelpurelean/lean/.lake/build/ir/PureLean/InductiveCompilers.c --setup /Users/chiwengcheong/highlevelpurelean/lean/.lake/build/ir/PureLean/InductiveCompilers.setup.json --json",
+   "level": "trace"}],
+ "inputs":
+ [["deps",
+   [["purelean/PureLean:extraDep",
+     [["@purelean:extraDep", "00000000000006bb"]]],
+    ["imports", "00000000000006bb"]]],
+  ["libs",
+   [["import dynlibs", "00000000000006bb"],
+    ["package external libraries", "00000000000006bb"],
+    ["module dynlibs", "00000000000006bb"],
+    ["module plugins", "00000000000006bb"]]],
+  ["Lean 4.36.0, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9",
+   "bd5dd4b1191d6a49"],
+  ["/Users/chiwengcheong/highlevelpurelean/lean/PureLean/InductiveCompilers.lean",
+   "27afc6507ed638c0"],
+  ["options", "00000000000006bb"],
+  ["isModule: false", "feefd2a0d3a1847e"],
+  ["Module.name: PureLean.InductiveCompilers", "b9d20b014f8c3f24"],
+  ["Package.id?: (some purelean)", "fa62f3cda9dc0bdc"],
+  ["Module.leanArgs: #[]", "00000000000006bb"]],
+ "depHash": "cb870447a963a3d0"}

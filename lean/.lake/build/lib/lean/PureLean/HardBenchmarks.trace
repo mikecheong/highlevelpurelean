@@ -1,0 +1,76 @@
+{"synthetic": false,
+ "schemaVersion": "2025-09-10",
+ "outputs":
+ {"o": ["a6a29237c01234c1.olean"],
+  "m": false,
+  "i": "72235a8e7dfc59d4.ilean",
+  "c": "e5e63785fe5eea4b.c"},
+ "log":
+ [{"message":
+   ".> LEAN_PATH=/Users/chiwengcheong/highlevelpurelean/lean/.lake/build/lib/lean /Users/chiwengcheong/.elan/toolchains/leanprover--lean4---v4.36.0/bin/lean /Users/chiwengcheong/highlevelpurelean/lean/PureLean/HardBenchmarks.lean -o /Users/chiwengcheong/highlevelpurelean/lean/.lake/build/lib/lean/PureLean/HardBenchmarks.olean -i /Users/chiwengcheong/highlevelpurelean/lean/.lake/build/lib/lean/PureLean/HardBenchmarks.ilean -c /Users/chiwengcheong/highlevelpurelean/lean/.lake/build/ir/PureLean/HardBenchmarks.c --setup /Users/chiwengcheong/highlevelpurelean/lean/.lake/build/ir/PureLean/HardBenchmarks.setup.json --json",
+   "level": "trace"},
+  {"message":
+   "PureLean/HardBenchmarks.lean:37:0: 'hq_01_exp2_group_comm.exp2_group_abelian' does not depend on any axioms",
+   "level": "info"},
+  {"message":
+   "PureLean/HardBenchmarks.lean:61:0: 'hq_02_galois_u_l_u.galois_u_l_u' does not depend on any axioms",
+   "level": "info"},
+  {"message":
+   "PureLean/HardBenchmarks.lean:80:0: 'hq_03_classical_forall_or.forall_or_distrib_left' depends on axioms: [propext, Classical.choice, Quot.sound]",
+   "level": "info"},
+  {"message":
+   "PureLean/HardBenchmarks.lean:106:0: 'hq_04_btree_flatten_mirror.flattenBT_mirrorT' depends on axioms: [propext]",
+   "level": "info"},
+  {"message":
+   "PureLean/HardBenchmarks.lean:125:0: 'hq_05_retraction_inj_right_inv.right_inv_and_surj_of_left_inv_inj' does not depend on any axioms",
+   "level": "info"},
+  {"message":
+   "PureLean/HardBenchmarks.lean:147:0: 'hq_06_mapAcc_correct.mapAcc_nil_eq_map' depends on axioms: [propext]",
+   "level": "info"},
+  {"message":
+   "PureLean/HardBenchmarks.lean:201:0: 'hq_07_heyting_curry.heyting_curry' does not depend on any axioms",
+   "level": "info"},
+  {"message":
+   "PureLean/HardBenchmarks.lean:224:0: 'hq_08_diamond_strip_lemma.diamond_strip' does not depend on any axioms",
+   "level": "info"},
+  {"message":
+   "PureLean/HardBenchmarks.lean:249:0: 'hq_09_div3_cube_plus_2n.dvd3_cube_add_two_mul' depends on axioms: [propext, Quot.sound]",
+   "level": "info"},
+  {"message":
+   "PureLean/HardBenchmarks.lean:294:0: 'hq_10_ring_neg_mul_neg.ring_neg_mul_neg' does not depend on any axioms",
+   "level": "info"},
+  {"message":
+   "PureLean/HardBenchmarks.lean:317:0: 'hq_11_foldl_via_foldr_cps.foldl_eq_foldr_cps' does not depend on any axioms",
+   "level": "info"},
+  {"message":
+   "PureLean/HardBenchmarks.lean:358:0: 'hq_12_group_commutator_inv.commG_inv' does not depend on any axioms",
+   "level": "info"},
+  {"message":
+   "PureLean/HardBenchmarks.lean:382:0: 'hq_13_fib_addition_formula.fibN_add_succ' depends on axioms: [propext, Quot.sound]",
+   "level": "info"},
+  {"message":
+   "PureLean/HardBenchmarks.lean:448:0: 'hq_14_arith_vm_compiler.compileAST_correct' depends on axioms: [propext]",
+   "level": "info"},
+  {"message":
+   "PureLean/HardBenchmarks.lean:477:0: 'hq_15_nicomachus_sum_cubes.nicomachus_sum_cubes' depends on axioms: [propext, Quot.sound]",
+   "level": "info"}],
+ "inputs":
+ [["deps",
+   [["purelean/PureLean:extraDep",
+     [["@purelean:extraDep", "00000000000006bb"]]],
+    ["imports", "00000000000006bb"]]],
+  ["libs",
+   [["import dynlibs", "00000000000006bb"],
+    ["package external libraries", "00000000000006bb"],
+    ["module dynlibs", "00000000000006bb"],
+    ["module plugins", "00000000000006bb"]]],
+  ["Lean 4.36.0, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9",
+   "bd5dd4b1191d6a49"],
+  ["/Users/chiwengcheong/highlevelpurelean/lean/PureLean/HardBenchmarks.lean",
+   "2663bfb1c6257f8e"],
+  ["options", "00000000000006bb"],
+  ["isModule: false", "feefd2a0d3a1847e"],
+  ["Module.name: PureLean.HardBenchmarks", "0213bec6cba63f5e"],
+  ["Package.id?: (some purelean)", "fa62f3cda9dc0bdc"],
+  ["Module.leanArgs: #[]", "00000000000006bb"]],
+ "depHash": "9f0faefec7dc14dc"}

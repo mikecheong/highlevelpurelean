@@ -1,0 +1,31 @@
+{"synthetic": false,
+ "schemaVersion": "2025-09-10",
+ "outputs":
+ {"o": ["fd8c3413dca3efd0.olean"],
+  "m": false,
+  "i": "a30d3b0dc98da08c.ilean",
+  "c": "a297c40405f76459.c"},
+ "log":
+ [{"message":
+   ".> LEAN_PATH=/Users/chiwengcheong/highlevelpurelean/lean/.lake/build/lib/lean /Users/chiwengcheong/.elan/toolchains/leanprover--lean4---v4.36.0/bin/lean /Users/chiwengcheong/highlevelpurelean/lean/PureLean/RelationsSets.lean -o /Users/chiwengcheong/highlevelpurelean/lean/.lake/build/lib/lean/PureLean/RelationsSets.olean -i /Users/chiwengcheong/highlevelpurelean/lean/.lake/build/lib/lean/PureLean/RelationsSets.ilean -c /Users/chiwengcheong/highlevelpurelean/lean/.lake/build/ir/PureLean/RelationsSets.c --setup /Users/chiwengcheong/highlevelpurelean/lean/.lake/build/ir/PureLean/RelationsSets.setup.json --json",
+   "level": "trace"}],
+ "inputs":
+ [["deps",
+   [["purelean/PureLean:extraDep",
+     [["@purelean:extraDep", "00000000000006bb"]]],
+    ["imports", "00000000000006bb"]]],
+  ["libs",
+   [["import dynlibs", "00000000000006bb"],
+    ["package external libraries", "00000000000006bb"],
+    ["module dynlibs", "00000000000006bb"],
+    ["module plugins", "00000000000006bb"]]],
+  ["Lean 4.36.0, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9",
+   "bd5dd4b1191d6a49"],
+  ["/Users/chiwengcheong/highlevelpurelean/lean/PureLean/RelationsSets.lean",
+   "bdd86dfea86f9040"],
+  ["options", "00000000000006bb"],
+  ["isModule: false", "feefd2a0d3a1847e"],
+  ["Module.name: PureLean.RelationsSets", "028bdcc887a13741"],
+  ["Package.id?: (some purelean)", "fa62f3cda9dc0bdc"],
+  ["Module.leanArgs: #[]", "00000000000006bb"]],
+ "depHash": "88e2f8f30efea28e"}

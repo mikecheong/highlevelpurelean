@@ -1,0 +1,23 @@
+{"plugins": [],
+ "package": "purelean",
+ "options": {},
+ "name": "PureLean",
+ "isModule": false,
+ "importArts":
+ {"PureLean.RelationsSets":
+  [["/Users/chiwengcheong/highlevelpurelean/lean/.lake/build/lib/lean/PureLean/RelationsSets.olean"]],
+  "PureLean.OrderGalois":
+  [["/Users/chiwengcheong/highlevelpurelean/lean/.lake/build/lib/lean/PureLean/OrderGalois.olean"]],
+  "PureLean.NumberTheory":
+  [["/Users/chiwengcheong/highlevelpurelean/lean/.lake/build/lib/lean/PureLean/NumberTheory.olean"]],
+  "PureLean.LogicFunctions":
+  [["/Users/chiwengcheong/highlevelpurelean/lean/.lake/build/lib/lean/PureLean/LogicFunctions.olean"]],
+  "PureLean.InductiveCompilers":
+  [["/Users/chiwengcheong/highlevelpurelean/lean/.lake/build/lib/lean/PureLean/InductiveCompilers.olean"]],
+  "PureLean.HoldoutBenchmarks":
+  [["/Users/chiwengcheong/highlevelpurelean/lean/.lake/build/lib/lean/PureLean/HoldoutBenchmarks.olean"]],
+  "PureLean.HardBenchmarks":
+  [["/Users/chiwengcheong/highlevelpurelean/lean/.lake/build/lib/lean/PureLean/HardBenchmarks.olean"]],
+  "PureLean.Algebra":
+  [["/Users/chiwengcheong/highlevelpurelean/lean/.lake/build/lib/lean/PureLean/Algebra.olean"]]},
+ "dynlibs": []}

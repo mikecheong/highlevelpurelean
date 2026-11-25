@@ -1,0 +1,6 @@
+name = "purelean"
+version = "0.1.0"
+defaultTargets = ["PureLean"]
+
+[[lean_lib]]
+name = "PureLean"
